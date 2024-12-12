@@ -1,18 +1,22 @@
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('server.json');
+const router = jsonServer.router('db.json'); // Corrija para 'db.json'
 const middlewares = jsonServer.defaults();
 
 server.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  res.header('Access-Control-Allow-Origin', '*'); // Permitir todas as origens
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  
+  // Responder a solicitações OPTIONS
+  if (req.method === 'OPTIONS') {
+    return res.sendStatus(200);
+  }
+  
   next();
 });
 
 server.use(middlewares);
 server.use(router);
-server.listen(process.env.PORT || 3000, () => {
-  console.log('JSON Server is running');
-});
-module.exports = server;
+
+module.exports = server; // Adicione esta linha
