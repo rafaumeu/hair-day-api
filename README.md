@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodejs) ![REST API](https://img.shields.io/badge/REST_API-FF0080?style=for-the-badge)
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript" alt="JavaScript"/> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodejs" alt="Node.js"/> <img src="https://img.shields.io/badge/REST_API-FF0080?style=for-the-badge" alt="REST API"/>
 </p>
 
 ## Sobre | About
