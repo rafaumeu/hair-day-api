@@ -1,45 +1,33 @@
-## Deploy JSON Server to Vercel
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FF0080&height=150&section=header&text=Hair%20Day%20API&fontSize=35&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Backend%20API%20for%20the%20Hairday%20scheduling%20application&descSize=16&descAlignY=52"/>
+</div>
 
-A template to deploy [JSON Server](https://github.com/typicode/json-server) to [Vercel](https://vercel.com), allow you to run fake REST API online!
+<p align="center">
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodejs) ![REST API](https://img.shields.io/badge/REST_API-FF0080?style=for-the-badge)
+</p>
 
-Demo from this repository: 
+## Sobre | About
 
-1. https://json-server-in.vercel.app
-2. https://json-server-in.vercel.app/api/posts
+Backend API for the Hairday scheduling application
 
-![Powered by Vercel](https://images.ctfassets.net/e5382hct74si/78Olo8EZRdUlcDUFQvnzG7/fa4cdb6dc04c40fceac194134788a0e2/1618983297-powered-by-vercel.svg)
+## Tecnologias | Technologies
 
-### How to use
+| Technology | Purpose |
+|---|---|
+| **Node.js** | Runtime |
+| **JavaScript** | Core language |
 
-1. Click "**Use this template**" or clone this repository.
-2. Update or use the default [`db.json`](./db.json) in the repository.
-3. Sign Up or login into [Vercel](https://vercel.com).
-4. From the Vercel dashboard, click "**+ New Project**" then "**Import**" your repository.
-5. In the "**Configure Project**" screen, leave everything default and click "**Deploy**".
-6. Wait until deployment is done, and your own JSON server is ready to serve!
+## O que aprendi | What I Learned
 
-## Default `db.json`
+- REST API design patterns
+- CRUD endpoint implementation
+- Data modeling for scheduling
 
-```json
-{
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
-}
-```
+## Licença | License
 
-## Enable write operations
+MIT
 
-By default, only GET operation is allowed, thanks to the contribution by [@VicAv99](https://www.github.com/VicAv99) at [#6](https://github.com/kitloong/json-server-vercel/issues/6), we can now enable write operations as well.
-
-You can find the example code in [`api/server.js`](./api/server.js).
-
-## Reference
-
-1. https://github.com/typicode/json-server
-2. https://vercel.com
-3. https://shadowsmith.com/how-to-deploy-an-express-api-to-vercel
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FF0080&height=100&section=footer"/>
+  <br/><sub>Built with ❤️ by <a href="https://github.com/rafaumeu">Rafael Zendron</a></sub>
+</div>
