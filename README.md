@@ -1,9 +1,9 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FF0080&height=150&section=header&text=Hair%20Day%20API&fontSize=35&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Backend%20API%20for%20the%20Hairday%20scheduling%20application&descSize=16&descAlignY=52"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FFCA28&height=150&section=header&text=Hair%20Day%20API&fontSize=35&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Backend%20API%20for%20the%20Hairday%20scheduling%20application&descSize=16&descAlignY=52"/>
 </div>
 
 <p align="center">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript" alt="JavaScript"/> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodejs" alt="Node.js"/> <img src="https://img.shields.io/badge/REST_API-FF0080?style=for-the-badge" alt="REST API"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript" alt="JavaScript"/> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodejs" alt="Node.js"/> <img src="https://img.shields.io/badge/REST_API-FFCA28?style=for-the-badge" alt="REST API"/>
 </p>
 
 ## Sobre | About
@@ -28,11 +28,11 @@ Backend API for the Hairday scheduling application
 MIT
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FF0080&height=100&section=footer"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FFCA28&height=100&section=footer"/>
   <br/><sub>Built with ❤️ by <a href="https://github.com/rafaumeu">Rafael Zendron</a></sub>
 </div>
 
 <p align="center">
-  [![Use this template](https://img.shields.io/badge/Use_This_Template-FF0080?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rafaumeu/hair-day-api/generate)
+  [![Use this template](https://img.shields.io/badge/Use_This_Template-FFCA28?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rafaumeu/hair-day-api/generate)
 </p>
 
