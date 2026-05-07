@@ -4,9 +4,15 @@
   "description": "Deploy JSON Server to Vercel",
   "main": "api/server.js",
   "scripts": {
-    "start": "node api/server.js"
+    "start": "node api/server.js",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "docker:build": "docker compose build"
   },
   "dependencies": {
     "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.14"
   }
 }
