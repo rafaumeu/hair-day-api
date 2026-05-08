@@ -1,4 +1,4 @@
-     1|<div align="center">
+1|<div align="center">
      2|  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FFCA28&height=150&section=header&text=Hair%20Day%20API&fontSize=35&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Backend%20API%20for%20the%20Hairday%20scheduling%20application&descSize=16&descAlignY=52"/>
      3|</div>
      4|
