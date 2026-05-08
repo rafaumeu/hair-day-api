@@ -1,40 +1,87 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FFCA28&height=150&section=header&text=Hair%20Day%20API&fontSize=35&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Backend%20API%20for%20the%20Hairday%20scheduling%20application&descSize=16&descAlignY=52"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FFCA28&height=150&section=header&text=Hair%20Day%20API&fontSize=35&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=REST%20API%20for%20Salon%20Scheduling&descSize=16&descAlignY=52"/>
 </div>
-
-<div align="center">
-
-[<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES2022-F7DF1E.svg"/>](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[<img alt="json-server" src="https://img.shields.io/badge/json_server-1-FF6B6B.svg"/>](https://github.com/typicode/json-server)
-[<img alt="Vitest" src="https://img.shields.io/badge/Vitest-3-6E9F18.svg"/>](https://vitest.dev/)
-[<img alt="Biome" src="https://img.shields.io/badge/Biome-2-60A5FA.svg"/>](https://biomejs.dev/)
-[<img alt="Docker" src="https://img.shields.io/badge/Docker-ready-2496ED.svg"/>](https://docker.com/)
-
-</div>
-
 
 <p align="center">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript" alt="JavaScript"/> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodejs" alt="Node.js"/> <img src="https://img.shields.io/badge/REST_API-FFCA28?style=for-the-badge" alt="REST API"/>
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES2022-F7DF1E?style=for-the-badge&logo=javascript"/>
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-22-339933?style=for-the-badge&logo=nodejs"/>
+  <img alt="json-server" src="https://img.shields.io/badge/json_server-1-FF6B6B?style=for-the-badge"/>
+  <img alt="Vitest" src="https://img.shields.io/badge/Vitest-3-6E9F18?style=for-the-badge"/>
+  <img alt="Biome" src="https://img.shields.io/badge/Biome-2-60A5FA?style=for-the-badge"/>
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-ready-2496ED?style=for-the-badge&logo=docker"/>
 </p>
 
-## Sobre | About
+---
 
-Backend API for the Hairday scheduling application
+## Overview
 
-## Tecnologias | Technologies
+REST API backend for the **Hair Day** salon scheduling application. Built with **json-server** for rapid prototyping, providing CRUD endpoints for appointments, clients, and services. Fully containerized with Docker and covered by integration tests.
+
+## Features
+
+- CRUD endpoints for salon scheduling resources
+- File-based JSON persistence via json-server
+- Custom route handlers for business logic
+- Input validation and error handling
+- Docker containerization
+- Integration test suite with Vitest + Supertest
+
+## API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/appointments` | List all appointments |
+| `POST` | `/appointments` | Create appointment |
+| `GET` | `/appointments/:id` | Get appointment details |
+| `PUT` | `/appointments/:id` | Update appointment |
+| `DELETE` | `/appointments/:id` | Delete appointment |
+| `GET` | `/clients` | List all clients |
+| `POST` | `/clients` | Register client |
+| `GET` | `/services` | List available services |
+
+## Tech Stack
 
 | Technology | Purpose |
 |---|---|
-| **Node.js** | Runtime |
+| **Node.js** | Runtime environment |
 | **JavaScript** | Core language |
+| **json-server** | REST API framework |
+| **Vitest** | Test framework |
+| **Supertest** | HTTP assertions |
+| **Biome** | Linting + formatting |
+| **Docker** | Containerization |
 
-## O que aprendi | What I Learned
+## Getting Started
 
-- REST API design patterns
-- CRUD endpoint implementation
-- Data modeling for scheduling
+### Prerequisites
 
-## Licença | License
+- Node.js 18+
+- npm
+
+### Install
+
+```bash
+git clone https://github.com/rafaumeu/hair-day-api.git
+cd hair-day-api
+npm install
+npm start
+```
+
+### Docker
+
+```bash
+docker compose up -d    # Start on port 3001
+docker compose down     # Stop
+```
+
+## Testing
+
+```bash
+npm test                # Run all tests
+npm run test:watch      # Watch mode
+```
+
+## License
 
 MIT
 
@@ -44,5 +91,5 @@ MIT
 </div>
 
 <p align="center">
-  [<img alt="Use this template" src="https://img.shields.io/badge/Use_This_Template-FFCA28?style=for-the-badge&logo=github&logoColor=white"/>](https://github.com/rafaumeu/hair-day-api/generate)
+  <a href="https://github.com/rafaumeu/hair-day-api/generate"><img src="https://img.shields.io/badge/Use_This_Template-FFCA28?style=for-the-badge&logo=github&logoColor=white" alt="Use this template"/></a>
 </p>
